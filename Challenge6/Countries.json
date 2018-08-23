@@ -1,0 +1,63 @@
+[
+ {
+ "countryName": "Afghanistan",
+ "continent": "Asia",
+ "population": 34656032,
+ "currency": "Afghani"
+ },
+ {
+ "countryName": "Albania",
+ "continent": "Europe",
+ "population": 2876591,
+ "currency": "Lek"
+ },
+ {
+ "countryName": "Bulgaria",
+ "continent": "Europe",
+ "population": 7050034,
+ "currency": "Lev"
+},
+ {
+ "countryName": "Finland",
+ "continent": "Europe",
+ "population": 5517887,
+ "currency": "Euro"
+ },
+ {
+ "countryName": "Iceland",
+ "continent": "Europe",
+ "population": 350710,
+ "currency": "Icelandic Krona"
+ },
+ {
+ "countryName": "Japan",
+ "continent": "Asia",
+ "population": 126672000,
+ "currency": "Yen"
+ },
+ {
+ "countryName": "Oman",
+ "continent": "Middle East",
+ "population": 4424762,
+ "currency": "Rial"
+ },
+ {
+ "countryName": "South Africa",
+ "continent": "Africa",
+ "population": 57725600,
+ "currency": "South African Rand"
+ },
+ {
+ "countryName": "Uruguay",
+ "continent": "South America",
+ "population": 3444006,
+ "currency": "Uruguayan Peso"
+ },
+ {
+ "countryName": "Venezuela",
+ "continent": "South America",
+ "population": 31568179,
+ "currency": "Bolivar Soberano"
+ }
+]
+
