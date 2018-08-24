@@ -1,9 +1,10 @@
+
 import UIKit
 
 class ViewController: UITableViewController {
     
     var countries = [[String: String]]()
-    var numberOfCountries = 10
+    var numberOfCountries = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -11,16 +12,16 @@ class ViewController: UITableViewController {
         title = "Select country"
         
         if let jsonPath = Bundle.main.path(forResource: "Countries", ofType: "json") {
-            print("jsonPath: \(jsonPath)")
             
             if let data = try? String(contentsOfFile: jsonPath) {
                 
+                print("data: \(data)")
+                
                 let json = JSON(parseJSON: data)
-                print("json: \(json)")
                 
                 parse(json: json)
                 
-                print(countries)
+                print("countries: \(countries)")
                 
             } else {
                 print("Unable to get contents of JSON file")
@@ -43,12 +44,14 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let numberOfCountries = countries.count
         return numberOfCountries
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Country", for: indexPath)
-        cell.textLabel?.text = "Country name"
+        
+        cell.textLabel?.text = countries[indexPath.row]["countryName"]
         return cell
     }
 
