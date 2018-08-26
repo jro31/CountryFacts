@@ -39,7 +39,8 @@
  "countryName": "Oman",
  "continent": "Middle East",
  "population": 4424762,
- "currency": "Rial"
+ "currency": "Rial",
+ "otherInformation" : "It is the only country in the world to begin with the letter 'O'"
  },
  {
  "countryName": "South Africa",
@@ -58,6 +59,13 @@
  "continent": "South America",
  "population": 31568179,
  "currency": "Bolivar Soberano"
+ },
+ {
+ "countryName": "Zimbabwe",
+ "continent": "Africa",
+ "population": 16150362,
+ "currency": "Multiple",
+ "otherInformation": "Zimbabwe has 16 different languages"
  }
 ]
 

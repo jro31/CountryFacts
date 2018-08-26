@@ -14,6 +14,7 @@
 		201F3D72212C61B1000ACA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201F3D70212C61B1000ACA38 /* LaunchScreen.storyboard */; };
 		201F3D7E212CC600000ACA38 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F3D7D212CC600000ACA38 /* SwiftyJSON.swift */; };
 		201F3D80212CCF29000ACA38 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 201F3D7F212CCF29000ACA38 /* Countries.json */; };
+		20C2AE282133411D00B4632C /* CountryInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C2AE272133411D00B4632C /* CountryInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		201F3D73212C61B1000ACA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		201F3D7D212CC600000ACA38 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		201F3D7F212CCF29000ACA38 /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		20C2AE272133411D00B4632C /* CountryInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				201F3D67212C61AF000ACA38 /* AppDelegate.swift */,
 				201F3D69212C61AF000ACA38 /* ViewController.swift */,
+				20C2AE272133411D00B4632C /* CountryInfoViewController.swift */,
 				201F3D6B212C61AF000ACA38 /* Main.storyboard */,
 				201F3D6E212C61B1000ACA38 /* Assets.xcassets */,
 				201F3D70212C61B1000ACA38 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				201F3D7E212CC600000ACA38 /* SwiftyJSON.swift in Sources */,
+				20C2AE282133411D00B4632C /* CountryInfoViewController.swift in Sources */,
 				201F3D6A212C61AF000ACA38 /* ViewController.swift in Sources */,
 				201F3D68212C61AF000ACA38 /* AppDelegate.swift in Sources */,
 			);
